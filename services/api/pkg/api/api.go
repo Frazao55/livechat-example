@@ -10,3 +10,4 @@ func AddRoutes(group *gin.RouterGroup) {
 	apiGroup.GET("/ws", ws.NewForContext)
 	AddLoginRoutes(apiGroup)
 }
+//test
